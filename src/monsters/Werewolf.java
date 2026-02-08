@@ -1,16 +1,13 @@
 package monsters;
 
 public class Werewolf extends Monster {
-    public Werewolf(String name) {
-        super(name);
-    }
 
-    public Werewolf(String wayne, Eyes eyes, Specialpower specialpower) {
-        super();
+    public Werewolf(String name, Eyes eyes, Specialpower specialpower) {
+        super(name, eyes, specialpower);
     }
 
     @Override
-    public Specialpower getSpecialPower() {
-        return null;
-    }
+   public void specialPowers() {
+        System.out.println("The werewolf started howling under the full moon.");
+   }
 }

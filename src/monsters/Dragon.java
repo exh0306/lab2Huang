@@ -8,6 +8,6 @@ public class Dragon extends Monster {
 
     @Override
     public void specialPowers() {
-        System.out.println("The dragon takes flight");
+        System.out.println("The dragon takes flight.");
     }
 }

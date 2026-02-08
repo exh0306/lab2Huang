@@ -25,9 +25,9 @@ public class Main {
         System.out.println("Monster 1 eyes count:" + mon1.getEyes());
 
 
-        System.out.println("Monster 2 name :" + mon2.getName());
+        System.out.println("Monster 2 name:" + mon2.getName());
 
-        System.out.println("Monster 3 name :" + mon3.getName());
+        System.out.println("Monster 3 name:" + mon3.getName());
 
         System.out.println("Monster 4 name:" + mon4.getName());
 

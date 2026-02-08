@@ -7,8 +7,7 @@ public abstract class Monster {
     private Eyes eyes;
 
     // Getters / Setters
-
-    public Monster(String name, Specialpower eyes, Specialpower specialpower) {
+    public Monster(String name, Eyes eyes, Specialpower specialpower) {
         this.name = name;
         this.eyes = eyes;
 
