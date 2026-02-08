@@ -2,8 +2,16 @@ package monsters;
 
 public abstract class Monster {
 
-    public Monster(String name) {
+    // Class Variables
+    private String name;
+    private Eyes eyes;
+
+    // Getters / Setters
+
+    public Monster(String name, Specialpower eyes, Specialpower specialpower) {
         this.name = name;
+        this.eyes = eyes;
+
     }
 
     public String getName() {
@@ -14,5 +22,13 @@ public abstract class Monster {
         this.name = name;
     }
 
-    private String name;
+    public Eyes getEyes() {return eyes;}
+
+    public void setEyes(Eyes eyes) {this.eyes = eyes;}
+
+
+    // Abstract behavior
+    public abstract void specialPowers();
+
+
 }
