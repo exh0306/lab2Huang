@@ -15,8 +15,8 @@ package monsters;
 public class Main {
     public static void main(String[] args) {
 
-        Monster mon1 = new Dragon("Toothless", Eyes.TWO, 30, 6.5, Specialpower.PLASMA_BLASTS, Dangerlevel.HIGH);
-        Monster mon2 = new Dragon("Haku", Eyes.THREE, 13, 4.5, Specialpower.SHAPE_SHIFTING, Dangerlevel.MEDIUM);
+        Dragon mon1 = new Dragon("Toothless", Eyes.TWO, 30, 6.5, Specialpower.PLASMA_BLASTS, Dangerlevel.HIGH, "Black");
+        Monster mon2 = new Dragon("Haku", Eyes.THREE, 13, 4.5, Specialpower.SHAPE_SHIFTING, Dangerlevel.MEDIUM, "Blue");
         Monster mon3 = new Ghost("Casper", Eyes.TWO,12,1.0, Specialpower.INVISIBILITY, Dangerlevel.LOW);
         Monster mon4 = new Werewolf("Wayne", Eyes.TWO,500,6.0, Specialpower.SUPER_SPEED, Dangerlevel.LOW );
         Monster mon5 = new Werewolf("Jacob", Eyes.TWO,25, 6.7, Specialpower.SHAPE_SHIFTING, Dangerlevel.HIGH);
@@ -26,6 +26,7 @@ public class Main {
         System.out.println("Monster 1 age: " + mon1.getAge());
         System.out.println("Monster 1 height: " + mon1.getHeight() + " feet");
         System.out.println("Monster 1 danger level: " + mon1.getDangerlevel());
+        System.out.println("Scale color: " + mon1.getScaleColor());
         mon1.specialPowers();
 
         System.out.println("Monster 2 name:" + mon2.getName());
@@ -33,6 +34,7 @@ public class Main {
         System.out.println("Monster 2 age: " + mon2.getAge());
         System.out.println("Monster 2 height: " + mon2.getHeight() + " feet");
         System.out.println("Monster 2 danger level: " + mon2.getDangerlevel());
+        System.out.println("Scale color: " + ((Dragon) mon2).getScaleColor());
         mon2.specialPowers();
 
         System.out.println("Monster 3 name:" + mon3.getName());
