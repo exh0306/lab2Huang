@@ -1,3 +1,15 @@
+/**
+
+ * Project: Lab 2
+ * Purpose Details: Monsters
+ * Course : IST 242
+ * Author: Emlety Huang
+ * Date Developed: 2/4/26
+ * Last Date Changed: 2/8/26
+ * Revision: 2/8/26
+ *
+ */
+
 package monsters;
 
 public class Ghost extends Monster {
