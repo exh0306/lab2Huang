@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"monsters","l":"Dangerlevel"},{"p":"monsters","l":"Dragon"},{"p":"monsters","l":"Eyes"},{"p":"monsters","l":"Ghost"},{"p":"monsters","l":"Main"},{"p":"monsters","l":"Monster"},{"p":"monsters","l":"Specialpower"},{"p":"monsters","l":"Werewolf"}];updateSearchResults();
