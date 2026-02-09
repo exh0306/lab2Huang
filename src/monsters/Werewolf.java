@@ -2,8 +2,8 @@ package monsters;
 
 public class Werewolf extends Monster {
 
-    public Werewolf(String name, Eyes eyes, Specialpower specialpower, Dangerlevel dangerlevel) {
-        super(name, eyes, specialpower, dangerlevel );
+    public Werewolf(String name, Eyes eyes, int age, double height, Specialpower specialpower, Dangerlevel dangerlevel) {
+        super(name, eyes, age, height, specialpower, dangerlevel );
     }
 
     @Override
